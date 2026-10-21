@@ -1,0 +1,9 @@
+main:
+  - title: "About"
+    url: "/#page-title"
+  - title: "Education"
+    url: "/#education"
+  - title: "Publication"
+    url: "/#publication"
+  - title: "Selected Awards"
+    url: "/#selected-awards"

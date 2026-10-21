@@ -1,0 +1,80 @@
+/* Shared by the Jekyll homepage and its offline preview. */
+html { font-size: 18px; scroll-behavior: smooth; }
+.greedy-nav .site-title, .greedy-nav .site-title:hover { color: #000; }
+.site-title__names { white-space: nowrap; }
+.site-title__zh { margin-inline-start: .55em; color: #777; font-size: .85em; font-weight: 400; }
+.page__title { font-size: 28px; line-height: 1.25; }
+.page__content { font-size: 18px; line-height: 1.8; overflow-wrap: anywhere; }
+.page__content h2 { margin: 1.6em 0 .9em; padding-bottom: .45em; font-size: 28px; line-height: 1.3; }
+.page__content h2, .page__title { scroll-margin-top: 24px; }
+
+/* Center the photograph and profile within the left column. */
+.sidebar { opacity: 1; }
+.author__avatar { display: block; width: 180px; height: 180px; margin-inline: auto; }
+.author__avatar img { display: block; width: 180px; max-width: 100%; height: 180px; padding: 0; border: 0; border-radius: 50%; aspect-ratio: 1; object-fit: cover; object-position: center; }
+.author__content { display: block; width: 100%; padding: 0; margin-top: 18px; text-align: center; }
+.sidebar .author__name { margin: 0; font-size: 22px; line-height: 1.4; }
+.author__bio { margin: 7px 0 0; }
+.author__bio p { margin: 0; font-size: 15px; line-height: 1.6; white-space: nowrap; }
+.author__urls-wrapper { display: block; cursor: auto; }
+.author__urls-wrapper > button { display: none; }
+.sidebar .profile-links { display: grid; position: static; width: fit-content; max-width: 100%; gap: 8px; margin: 18px auto 0; padding: 0; border: 0; background: transparent; box-shadow: none; list-style: none; font-size: 14px; text-align: left; }
+.profile-links::before, .profile-links::after { display: none; }
+.sidebar .profile-links li { margin: 0; padding: 0; font-size: inherit; line-height: 1.5; }
+.profile-links a, .profile-links .profile-location { display: flex; align-items: center; gap: 10px; }
+.sidebar .profile-links a { margin: 0; padding: 0; color: inherit; font-size: inherit; text-decoration: none; }
+.profile-links a:hover, .profile-links a:focus-visible { text-decoration: underline; }
+.sidebar .profile-links .profile-icon { display: block; width: 15px; height: 15px; flex: 0 0 15px; object-fit: contain; opacity: .72; }
+.author__urls-wrapper .profile-links .label { padding-inline-start: 0; }
+
+/* Give every entry the same image column and text starting position. */
+.education-entry, .publication-entry, .award-entry { display: grid; grid-template-columns: minmax(0, 25%) minmax(0, 1fr); gap: 32px; align-items: center; }
+.education-entry__emblem, .award-entry__emblem { display: block; justify-self: center; width: 110px; max-width: 65%; height: auto; aspect-ratio: 1; object-fit: contain; }
+.award-entry__emblem { width: 100px; max-width: 60%; }
+.education-entry__details, .publication-entry__details, .award-entry__details { min-width: 0; }
+.page__content .education-entry__details p { margin: 0; font-size: 16px; line-height: 1.7; }
+.education-entry__details strong { font-size: 18px; }
+.page__content .education-entry__details .entry-date { margin-top: 9px; color: #6f777d; font-size: 14px; }
+.publication-entry__image { display: block; width: 100%; height: auto; object-fit: contain; }
+.page__content .publication-entry__title { margin: 0 0 .55em; font-size: 18px; line-height: 1.4; }
+.publication-entry__title a { color: inherit; text-decoration: none; }
+.publication-entry__title a:hover, .publication-entry__title a:focus-visible { text-decoration: underline; }
+.page__content .publication-entry__authors { margin: 0 0 .55em; color: #6f777d; font-size: 14px; line-height: 1.6; }
+.publication-entry__authors strong { color: #3d4144; text-decoration: underline; text-underline-offset: .14em; }
+.page__content .publication-entry__venue { margin: 0 0 .75em; color: #5b6570; font-size: 14px; }
+.publication-links { display: flex; gap: 8px; flex-wrap: wrap; }
+.publication-links a { display: inline-flex; align-items: center; gap: .4em; padding: .35em .7em; border: 1px solid #d6dadd; border-radius: 5px; color: #454c53; font-size: 13px; font-weight: 600; text-decoration: none; }
+.publication-links a:hover, .publication-links a:focus-visible { border-color: #7a8288; background: #f6f7f8; }
+.publication-links svg { width: 1em; height: 1em; flex: none; }
+.page__content .award-entry__details h3 { margin: 0 0 .5em; font-size: 18px; line-height: 1.4; }
+.page__content .award-entry__details p { margin: 0 0 .65em; font-size: 16px; line-height: 1.6; }
+.page__content .award-entry__details p:last-child { margin-bottom: 0; color: #6f777d; font-size: 14px; }
+
+@media (min-width: 1024px) {
+  #main { display: grid; grid-template-columns: 256px minmax(0, 1fr); gap: 48px; max-width: 1280px; padding-inline: 24px 50px; }
+  #main::after { display: none; }
+  #main > .sidebar { float: none; width: auto; min-width: 0; }
+  #main > .page { float: none; width: 100%; max-width: 900px; padding-inline-end: 0; }
+}
+@media (max-width: 1023px) {
+  .sidebar { margin: 24px 0 36px; }
+  .sidebar.sticky { max-height: none; }
+}
+@media (max-width: 767px) {
+  html { font-size: 16px; }
+  .page__content { font-size: 16px; line-height: 1.75; }
+  .page__title, .page__content h2 { font-size: 25px; }
+  .education-entry, .publication-entry, .award-entry { column-gap: 20px; }
+  .education-entry__emblem, .award-entry__emblem { max-width: 85%; }
+  .education-entry__details strong, .page__content .publication-entry__title, .page__content .award-entry__details h3 { font-size: 17px; }
+}
+@media (max-width: 600px) {
+  .publication-entry { grid-template-columns: 1fr; gap: 18px; }
+  .publication-entry__image { max-width: 320px; margin-inline: auto; }
+  .education-entry, .award-entry { grid-template-columns: 72px minmax(0, 1fr); gap: 18px; }
+  .education-entry__emblem, .award-entry__emblem { width: 68px; max-width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}

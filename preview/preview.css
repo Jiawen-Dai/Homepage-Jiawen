@@ -1,0 +1,9 @@
+/* Offline preview has no theme JavaScript for the responsive navigation. */
+.skip-link { position: fixed; top: -5rem; left: 1rem; z-index: 100; background: white; padding: .5rem 1rem; }
+.skip-link:focus { top: .5rem; }
+@media (max-width: 767px) {
+  .greedy-nav { flex-wrap: wrap; gap: .65rem 0; }
+  .greedy-nav .site-title { flex-basis: 100%; }
+  .greedy-nav .visible-links { flex-basis: 100%; justify-content: flex-start; gap: .25rem 1rem; }
+  .greedy-nav .visible-links a { margin: 0; font-size: .875rem; }
+}

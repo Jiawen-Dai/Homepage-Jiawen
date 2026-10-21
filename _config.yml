@@ -1,0 +1,67 @@
+# Minimal Mistakes personal homepage starter.
+# Edit this file when you are ready to add your own information.
+locale: en-US
+title: "Jiawen Dai"
+name: "Jiawen Dai"
+name_zh: "代嘉文"
+description: "Personal homepage of Jiawen Dai (代嘉文)."
+url: ""
+baseurl: ""
+minimal_mistakes_skin: default
+
+# Profile shown in the left sidebar.
+author:
+  name: "Jiawen Dai"
+  avatar: "/assets/images/jiawen-dai.jpg"
+  bio: "Undergraduate at SJTU"
+  location: "Beijing"
+  links:
+    - label: "daijiawen2114@sjtu.edu.cn"
+      icon: fas fa-fw fa-envelope
+      icon_asset: "/assets/icons/envelope.svg"
+      url: "mailto:daijiawen2114@sjtu.edu.cn"
+    - label: "GitHub"
+      icon: fab fa-fw fa-github
+      icon_asset: "/assets/icons/github.svg"
+      url: "https://github.com/Jiawen-Dai"
+    - label: "Google Scholar"
+      icon: fas fa-fw fa-graduation-cap
+      icon_asset: "/assets/icons/google-scholar.svg"
+      url: "https://scholar.google.com/citations?user=vlo0oe0AAAAJ&hl=zh-CN"
+
+search: false
+breadcrumbs: false
+atom_feed:
+  hide: true
+
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-include-cache
+  - jekyll-sitemap
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - THEME-README.md
+  - preview
+  - screenshots
+  - .bundle
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
+      toc: false
