@@ -5,7 +5,7 @@ permalink: /
 author_profile: true
 ---
 
-I am a junior majoring in physics in the Tsung-Dao Lee Physics Class at Shanghai Jiao Tong University. I am currently a research intern at the College of AI, Tsinghua University, advised by [Prof. Yue Song](https://collegeai.tsinghua.edu.cn/en/People/Full_time_PI/Yue_song.htm).
+I am a junior majoring in physics in the Tsung-Dao Lee Physics Class at Shanghai Jiao Tong University. I am currently a research intern at the College of AI, Tsinghua University, advised by [Prof. Yue Song](https://kingjamessong.github.io/).
 
 During my first two years as an undergraduate, I completed nearly all the coursework for my physics major. I previously held research internships at the Tsung-Dao Lee Institute and the School of Artificial Intelligence at Shanghai Jiao Tong University. At the latter, I was fortunate to begin my research in AI under the guidance of [Prof. Junchi Yan](https://thinklab.sjtu.edu.cn/index.html).
 
