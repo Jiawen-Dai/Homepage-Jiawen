@@ -19,7 +19,7 @@ During my first two years as an undergraduate, I completed nearly all the course
   </div>
 </div>
 
-## Publication
+## Publications
 
 <div class="publication-entry">
   <a href="https://jiawen-dai.github.io/WONN_Project_Page/" aria-label="WONN project page">
