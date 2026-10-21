@@ -5,8 +5,8 @@ title: "Jiawen Dai"
 name: "Jiawen Dai"
 name_zh: "代嘉文"
 description: "Personal homepage of Jiawen Dai (代嘉文)."
-url: ""
-baseurl: ""
+url: "https://jiawen-dai.github.io"
+baseurl: "/Homepage-Jiawen"
 minimal_mistakes_skin: default
 
 # Profile shown in the left sidebar.
