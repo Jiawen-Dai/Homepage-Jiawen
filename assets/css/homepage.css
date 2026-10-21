@@ -78,3 +78,14 @@ html { font-size: 18px; scroll-behavior: smooth; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* 中文姓名与英文同样大小、同样加粗 */
+.greedy-nav .site-title__zh {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+/* 统一位置、邮箱和社交链接的文字起点 */
+.author__urls-wrapper .profile-links span.label {
+  padding-inline-start: 0;
+}
