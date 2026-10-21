@@ -9,6 +9,8 @@ I am a junior majoring in physics in the Tsung-Dao Lee Physics Class at [Shangha
 
 During my first two years as an undergraduate, I completed nearly all the coursework for my physics major. I previously held research internships at the Tsung-Dao Lee Institute and the School of Artificial Intelligence at Shanghai Jiao Tong University. At the latter, I was fortunate to begin my research in AI under the guidance of [Prof. Junchi Yan](https://thinklab.sjtu.edu.cn/index.html).
 
+My previous research focused on representation learning. I am currently exploring language models and generative models, while remaining open to other research directions. I am always happy to exchange ideas and discuss research—please feel free to reach out!
+
 ## Education
 
 <div class="education-entry">
