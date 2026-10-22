@@ -30,7 +30,7 @@ My previous research focused on representation learning. I am currently explorin
   <div class="publication-entry__details">
     <h3 class="publication-entry__title"><a href="https://arxiv.org/abs/2605.20922">Winfree Oscillatory Neural Network</a></h3>
     <p class="publication-entry__authors"><strong>Jiawen Dai</strong>, Yue Song</p>
-    <p class="publication-entry__venue">NeurIPS 2026 · <strong>Spotlight</strong></p>
+    <p class="publication-entry__venue"> NeurIPS 2026 ·<strong style="color: #c62828;">Spotlight (Top 1%)</strong> </p>
     <div class="publication-links" aria-label="WONN resources">
       <a href="https://jiawen-dai.github.io/WONN_Project_Page/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a18 18 0 0 1 0 18 18 18 0 0 1 0-18Z"/></svg> Project Page</a>
       <a href="https://arxiv.org/abs/2605.20922"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6M8 13h8M8 17h6"/></svg> Paper</a>
