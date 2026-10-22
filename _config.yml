@@ -28,6 +28,9 @@ author:
       icon: fas fa-fw fa-graduation-cap
       icon_asset: "/assets/icons/google-scholar.svg"
       url: "https://scholar.google.com/citations?user=vlo0oe0AAAAJ&hl=zh-CN"
+    - label: "CV"
+      icon: "fas fa-fw fa-file-pdf"
+      url: "https://jiawen-dai.github.io/Jiawen-Dai/cv.pdf"
 
 search: false
 breadcrumbs: false
