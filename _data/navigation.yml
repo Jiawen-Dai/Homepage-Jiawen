@@ -7,3 +7,6 @@ main:
     url: "/#publication"
   - title: "Selected Awards"
     url: "/#selected-awards"
+  - title: "CV"
+    url: "/cv.pdf"
+    target: "_blank"
